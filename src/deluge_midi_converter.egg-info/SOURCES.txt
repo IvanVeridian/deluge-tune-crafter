@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/deluge_midi_converter/__init__.py
+src/deluge_midi_converter/main.py
+src/deluge_midi_converter.egg-info/PKG-INFO
+src/deluge_midi_converter.egg-info/SOURCES.txt
+src/deluge_midi_converter.egg-info/dependency_links.txt
+src/deluge_midi_converter.egg-info/requires.txt
+src/deluge_midi_converter.egg-info/top_level.txt
+src/deluge_midi_converter/core/__init__.py
+src/deluge_midi_converter/core/basic_pitch_processor.py
+src/deluge_midi_converter/core/midi_converter.py
+src/deluge_midi_converter/core/xml_injector.py

@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song
+	firmwareVersion="c1.1.1"
+	earliestCompatibleFirmware="4.1.0-alpha"
+	previewNumPads="144"
+	preview="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000BC4300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF06005AA5000FF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF06005AA5A5005A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF06005AA5009F6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF06005AA5004FB000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF06005AA50000FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF06005AA5"
+	arrangementAutoScrollOn="0"
+	xScroll="0"
+	xZoom="24"
+	yScrollSongView="-2"
+	yScrollArrangementView="8"
+	xScrollArrangementView="0"
+	xZoomArrangementView="192"
+	timePerTimerTick="229"
+	timerTickFraction="-1342177280"
+	rootNote="0"
+	inputTickMagnitude="2"
+	swingAmount="0"
+	swingInterval="7"
+	affectEntire="0"
+	activeModFunction="1"
+	modFXCurrentParam="feedback"
+	currentFilterType="lpf"
+	modFXType="flanger"
+	lpfMode="24dB"
+	hpfMode="HPLadder"
+	filterRoute="H2L"
+	midiLoopback="0"
+	songGridScrollX="0"
+	songGridScrollY="0"
+	sessionLayout="0">
+	<modeNotes>
+		<modeNote>0</modeNote>
+		<modeNote>2</modeNote>
+		<modeNote>4</modeNote>
+		<modeNote>5</modeNote>
+		<modeNote>7</modeNote>
+		<modeNote>9</modeNote>
+		<modeNote>11</modeNote>
+	</modeNotes>
+	<reverb
+		roomSize="1288490496"
+		dampening="1546188288"
+		width="2147483647"
+		pan="0"
+		model="0">
+		<compressor
+			attack="327244"
+			release="936"
+			volume="-21474836"
+			shape="-601295438"
+			syncLevel="5" />
+	</reverb>
+	<delay
+		pingPong="1"
+		analog="0"
+		syncLevel="7"
+		syncType="0" />
+	<sidechain
+		attack="327244"
+		release="936"
+		syncLevel="6"
+		syncType="0" />
+	<audioCompressor
+		attack="83886080"
+		release="83886080"
+		thresh="0"
+		ratio="1073741824"
+		compHPF="0" />
+	<songParams
+		reverbAmount="0x80000000"
+		volume="0x3504F334"
+		pan="0x00000000"
+		sidechainCompressorShape="0xDC28F5B2"
+		modFXDepth="0x00000000"
+		modFXRate="0xE0000000"
+		stutterRate="0x00000000"
+		sampleRateReduction="0x80000000"
+		bitCrush="0x80000000"
+		modFXOffset="0x00000000"
+		modFXFeedback="0x80000000"
+		compressorThreshold="0x00000000"
+		lpfMorph="0x80000000"
+		hpfMorph="0x80000000">
+		<delay
+			rate="0x00000000"
+			feedback="0x80000000" />
+		<lpf
+			frequency="0x7FFFFFFF"
+			resonance="0x80000000" />
+		<hpf
+			frequency="0x80000000"
+			resonance="0x80000000" />
+		<equalizer
+			bass="0x00000000"
+			treble="0x00000000"
+			bassFrequency="0x00000000"
+			trebleFrequency="0x00000000" />
+	</songParams>
+	<instruments>
+		<sound
+			presetName="006 Vaporwave Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="legato"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-24"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="analogSaw"
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				type="analogSquare"
+				transpose="-12"
+				cents="0"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="2" detune="8" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="oscBVolume" />
+				<modKnob controlsParam="oscBPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="005 Sweet Mono Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="mono"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-12"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="saw"
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				type="square"
+				transpose="-12"
+				cents="0"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="4" detune="10" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="oscBVolume" />
+				<modKnob controlsParam="oscBPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="002 Basic Square Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="auto"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-24"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="analogSquare"
+				transpose="0"
+				cents="0"
+				retrigPhase="0" />
+			<osc2
+				type="square"
+				transpose="-12"
+				cents="-2"
+				retrigPhase="0" />
+			<lfo1 type="triangle" syncLevel="0" syncType="0" />
+			<lfo2 type="triangle" />
+			<unison num="2" detune="2" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="env2Decay" />
+				<modKnob controlsParam="oscAPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="001 Sync Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="auto"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-12"
+			modFXType="none"
+			lpfMode="24dBDrive"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="analogSquare"
+				transpose="-12"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				type="analogSaw"
+				transpose="18"
+				cents="0"
+				oscillatorSync="1"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="4" detune="5" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="oscBPitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="oscBPitch" />
+				<modKnob controlsParam="oscAPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="000 Rich Saw Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-12"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="saw"
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				type="square"
+				transpose="-12"
+				cents="0"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="4" detune="10" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="oscBVolume" />
+				<modKnob controlsParam="oscBPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="078 House"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="fm"
+			modFXType="none"
+			lpfMode="12dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				transpose="0"
+				cents="0"
+				retrigPhase="0" />
+			<osc2
+				transpose="0"
+				cents="0"
+				retrigPhase="0" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<modulator1
+				transpose="24"
+				cents="0"
+				retrigPhase="-1073742016" />
+			<modulator2
+				transpose="12"
+				cents="0"
+				retrigPhase="0"
+				toModulator1="1" />
+			<unison num="2" detune="2" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="modulator2Volume" />
+				<modKnob controlsParam="modulator1Volume" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="modulator1Feedback" />
+				<modKnob controlsParam="carrier1Feedback" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="6"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="076 Organ"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="fm"
+			transpose="24"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				transpose="-17"
+				cents="0"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<modulator1
+				transpose="-10"
+				cents="0"
+				retrigPhase="-1" />
+			<modulator2
+				transpose="-24"
+				cents="0"
+				retrigPhase="-1"
+				toModulator1="0" />
+			<unison num="2" detune="6" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="oscBVolume" />
+				<modKnob controlsParam="modulator2Volume" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="modulator1Volume" />
+				<modKnob controlsParam="carrier1Feedback" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="0"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="074 Electric Piano"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="fm"
+			transpose="12"
+			modFXType="flanger"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				transpose="12"
+				cents="2"
+				retrigPhase="-1" />
+			<lfo1 type="triangle" syncLevel="0" syncType="0" />
+			<lfo2 type="square" />
+			<modulator1
+				transpose="12"
+				cents="0"
+				retrigPhase="-1" />
+			<modulator2
+				transpose="19"
+				cents="-2"
+				retrigPhase="-1"
+				toModulator1="0" />
+			<unison num="1" detune="0" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="modulator2Volume" />
+				<modKnob controlsParam="modulator1Volume" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="env2Sustain" />
+				<modKnob controlsParam="env2Decay" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="040 Spacer Leader"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="legato"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-11"
+			modFXType="none"
+			lpfMode="24dBDrive"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="analogSquare"
+				transpose="0"
+				cents="0"
+				retrigPhase="1431655680" />
+			<osc2
+				type="analogSaw"
+				transpose="-12"
+				cents="0"
+				retrigPhase="1550960320" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="triangle" />
+			<unison num="1" detune="0" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="hpfFrequency" />
+				<modKnob controlsParam="oscAPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="030 Distant Porta"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="auto"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="12"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="sine"
+				transpose="0"
+				cents="0"
+				retrigPhase="0" />
+			<osc2
+				type="sine"
+				transpose="-12"
+				cents="-2"
+				retrigPhase="0" />
+			<lfo1 type="triangle" syncLevel="0" syncType="0" />
+			<lfo2 type="triangle" />
+			<unison num="2" detune="2" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="noiseVolume" />
+				<modKnob controlsParam="sampleRateReduction" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="026 PW Organ"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="12"
+			modFXType="none"
+			lpfMode="24dBDrive"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="square"
+				transpose="0"
+				cents="2"
+				retrigPhase="0" />
+			<osc2
+				type="square"
+				transpose="-12"
+				cents="-3"
+				retrigPhase="0" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="1" detune="6" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="oscBPhaseWidth" />
+				<modKnob controlsParam="oscAPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="0"
+				analog="0"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="019 Fizzy Strings"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="subtractive"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="square"
+				transpose="0"
+				cents="0"
+				retrigPhase="0" />
+			<osc2
+				type="saw"
+				transpose="12"
+				cents="-2"
+				retrigPhase="0" />
+			<lfo1 type="triangle" syncLevel="0" syncType="0" />
+			<lfo2 type="triangle" />
+			<unison num="3" detune="13" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="noiseVolume" />
+				<modKnob controlsParam="oscAPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="6"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="009 Hoover Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="legato"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-24"
+			modFXType="none"
+			lpfMode="24dBDrive"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="saw"
+				transpose="0"
+				cents="6"
+				retrigPhase="-1" />
+			<osc2
+				type="saw"
+				transpose="0"
+				cents="-6"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="6" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="2" detune="13" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo2Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="noiseVolume" />
+				<modKnob controlsParam="lpfFrequency" patchAmountFromSource="lfo1" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="007 Detuned Saw Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="auto"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-24"
+			modFXType="none"
+			lpfMode="24dBDrive"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="saw"
+				transpose="0"
+				cents="6"
+				retrigPhase="-1" />
+			<osc2
+				type="saw"
+				transpose="0"
+				cents="-6"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="1" detune="11" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="lpfFrequency" patchAmountFromSource="envelope2" />
+				<modKnob controlsParam="env2Attack" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="003 Synthwave Bass"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="auto"
+			voicePriority="1"
+			mode="subtractive"
+			transpose="-12"
+			modFXType="none"
+			lpfMode="24dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				type="square"
+				transpose="-12"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				type="saw"
+				transpose="8"
+				cents="0"
+				oscillatorSync="1"
+				retrigPhase="-1" />
+			<lfo1 type="triangle" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<unison num="4" detune="5" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="lpfResonance" />
+				<modKnob controlsParam="lpfFrequency" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="oscBPitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="oscBPitch" />
+				<modKnob controlsParam="oscAPhaseWidth" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="1"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+		<sound
+			presetName="073 Piano"
+			presetFolder="SYNTHS"
+			defaultVelocity="64"
+			isArmedForRecording="0"
+			activeModFunction="1"
+			colour="0"
+			polyphonic="poly"
+			voicePriority="1"
+			mode="fm"
+			modFXType="none"
+			lpfMode="12dB"
+			hpfMode="HPLadder"
+			filterRoute="H2L"
+			maxVoices="8">
+			<osc1
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<osc2
+				transpose="28"
+				cents="-10"
+				retrigPhase="-1" />
+			<lfo1 type="sine" syncLevel="0" syncType="0" />
+			<lfo2 type="sine" />
+			<modulator1
+				transpose="0"
+				cents="0"
+				retrigPhase="-1" />
+			<modulator2
+				transpose="19"
+				cents="2"
+				retrigPhase="-1"
+				toModulator1="1" />
+			<unison num="3" detune="1" spread="0" />
+			<modKnobs>
+				<modKnob controlsParam="pan" />
+				<modKnob controlsParam="volumePostFX" />
+				<modKnob controlsParam="modulator2Volume" />
+				<modKnob controlsParam="modulator1Volume" />
+				<modKnob controlsParam="env1Release" />
+				<modKnob controlsParam="env1Attack" />
+				<modKnob controlsParam="delayFeedback" />
+				<modKnob controlsParam="delayRate" />
+				<modKnob controlsParam="reverbAmount" />
+				<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
+				<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
+				<modKnob controlsParam="lfo1Rate" />
+				<modKnob controlsParam="portamento" />
+				<modKnob controlsParam="stutterRate" />
+				<modKnob controlsParam="env2Sustain" />
+				<modKnob controlsParam="env2Decay" />
+			</modKnobs>
+			<delay
+				pingPong="1"
+				analog="0"
+				syncLevel="7"
+				syncType="0" />
+			<sidechain
+				attack="327244"
+				release="936"
+				syncLevel="6"
+				syncType="0" />
+			<audioCompressor
+				attack="83886080"
+				release="83886080"
+				thresh="0"
+				ratio="1073741824"
+				compHPF="0" />
+		</sound>
+	</instruments>
+	<sections>
+		<section id="0" numRepeats="0" />
+		<section id="1" numRepeats="0" />
+		<section id="2" numRepeats="0" />
+		<section id="3" numRepeats="0" />
+		<section id="4" numRepeats="0" />
+		<section id="5" numRepeats="0" />
+		<section id="6" numRepeats="0" />
+		<section id="7" numRepeats="0" />
+		<section id="8" numRepeats="0" />
+		<section id="9" numRepeats="0" />
+		<section id="10" numRepeats="0" />
+		<section id="11" numRepeats="0" />
+	</sections>
+	<sessionClips>
+		<instrumentClip
+			inKeyMode="1"
+			yScroll="35"
+			yScrollKeyboard="50"
+			instrumentPresetName="073 Piano"
+			instrumentPresetFolder="SYNTHS"
+			isPlaying="1"
+			isSoloing="0"
+			isArmedForRecording="1"
+			length="384"
+			colourOffset="-60"
+			section="0"
+			keyboardLayout="0"
+			keyboardRowInterval="5"
+			drumsScrollOffset="0"
+			drumsEdgeSize="4"
+			inKeyScrollOffset="21"
+			inKeyRowInterval="3">
+			<arpeggiator
+				mode="off"
+				syncLevel="6"
+				numOctaves="2"
+				syncType="0"
+				arpMode="off"
+				noteMode="up"
+				octaveMode="up"
+				mpeVelocity="off" />
+			<soundParams
+				arpeggiatorGate="0x00000000"
+				portamento="0x80000000"
+				compressorShape="0xDC28F5B2"
+				oscAVolume="0x7FFFFFD2"
+				oscAPulseWidth="0x00000000"
+				oscAWavetablePosition="0x00000000"
+				oscBVolume="0xD1EB8510"
+				oscBPulseWidth="0x00000000"
+				oscBWavetablePosition="0x00000000"
+				noiseVolume="0x80000000"
+				volume="0x28000000"
+				pan="0x00000000"
+				lpfFrequency="0x7FFFFFFF"
+				lpfResonance="0x00000000"
+				hpfFrequency="0x80000000"
+				hpfResonance="0x80000000"
+				lfo1Rate="0x1999997E"
+				lfo2Rate="0x00000000"
+				modulator1Amount="0xAC000000"
+				modulator1Feedback="0x80000000"
+				modulator2Amount="0x9C000000"
+				modulator2Feedback="0x851EB851"
+				carrier1Feedback="0x80000000"
+				carrier2Feedback="0x80000000"
+				modFXRate="0x00000000"
+				modFXDepth="0x00000000"
+				delayRate="0x00000000"
+				delayFeedback="0x80000000"
+				reverbAmount="0x80000000"
+				arpeggiatorRate="0x00000000"
+				stutterRate="0x00000000"
+				sampleRateReduction="0x80000000"
+				bitCrush="0x80000000"
+				modFXOffset="0x00000000"
+				modFXFeedback="0x00000000"
+				compressorThreshold="0x00000000"
+				lpfMorph="0x80000000"
+				hpfMorph="0x80000000"
+				waveFold="0x80000000"
+				ratchetProbability="0x80000000"
+				ratchetAmount="0x80000000"
+				sequenceLength="0x80000000"
+				rhythm="0x80000000">
+				<envelope1
+					attack="0x8A3D70A2"
+					decay="0x23D70A20"
+					sustain="0xFAE14798"
+					release="0x947AE144" />
+				<envelope2
+					attack="0x80000000"
+					decay="0xE6666654"
+					sustain="0xFFFFFFE9"
+					release="0xD70A3D61" />
+				<patchCables>
+					<patchCable
+						source="velocity"
+						destination="volume"
+						amount="0x3FFFFFE8" />
+					<patchCable
+						source="aftertouch"
+						destination="volume"
+						amount="0x2A3D7094" />
+					<patchCable
+						source="note"
+						destination="modulator1Volume"
+						amount="0xC0000018" />
+					<patchCable
+						source="envelope2"
+						destination="modulator1Volume"
+						amount="0x27AE146C" />
+					<patchCable
+						source="y"
+						destination="modulator1Volume"
+						amount="0x1333332C" />
+					<patchCable
+						source="velocity"
+						destination="modulator2Volume"
+						amount="0x2F5C28E4" />
+					<patchCable
+						source="envelope2"
+						destination="modulator2Volume"
+						amount="0x26666658" />
+					<patchCable
+						source="note"
+						destination="modulator2Volume"
+						amount="0xC0000018" />
+					<patchCable
+						source="note"
+						destination="modulator2Feedback"
+						amount="0xC0000018" />
+					<patchCable
+						source="envelope2"
+						destination="modulator2Feedback"
+						amount="0x3FFFFFE8" />
+					<patchCable
+						source="note"
+						destination="oscBVolume"
+						amount="0xC0000018" />
+					<patchCable
+						source="envelope1"
+						destination="carrier1Feedback"
+						amount="0x19999990" />
+				</patchCables>
+				<equalizer
+					bass="0x00000000"
+					treble="0x00000000"
+					bassFrequency="0x00000000"
+					trebleFrequency="0x00000000" />
+			</soundParams>
+			<noteRows>
+				<noteRow
+					y="72"
+					noteDataWithLift="0x0000000000000018404014" />
+			</noteRows>
+		</instrumentClip>
+	</sessionClips>
+</song>
